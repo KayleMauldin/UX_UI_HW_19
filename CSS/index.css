@@ -1,0 +1,102 @@
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 24px;
+    color: white; 
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: white;
+    background-color: black;
+}
+.navigation {
+    display: block;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    background-color: black;
+}
+
+ul {
+    list-style-type: none;
+    display:flex; 
+    flex-flow: row;
+    margin: 0px;
+    padding: 10px;
+    overflow: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: black;
+  }
+  
+  li {
+    justify-content: space-evenly;
+    float: left;
+    color: white;
+    background-color: black;
+  }
+
+.heroImg {
+    height: 300px; 
+    padding: 15px;
+    background-color: black; 
+}
+
+.content {
+    background-color: black;
+    height: 300px;
+    width: 400px; 
+    margin: 0 auto; 
+}
+.button {
+    background-color: white;
+}
+
+
+.flexContainer { 
+    display: flex;
+    flex-direction: row;
+    width: 33%; 
+    margin: 20px; 
+    padding: 10px; 
+    background-color: black;
+}
+
+
+.workGrid {
+    display: grid; 
+    .item1 {
+        grid-area: MyArea;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-areas: 'myArea'; 
+        grid-template-rows: 33%;
+    }
+    .img1 {
+        height: 300px;
+    }
+    .img2 { 
+        height: 300px;
+    }
+    background-color: black;
+        color: white;
+}
+
+footer {
+    background-color: black;
+    .ul {
+        padding: 10%; 
+        display: inline-block;
+        vertical-align: top;
+    }
+}
+@media only screen and (max-width: 600px) {
+    body {
+        .flexContainer {
+            display: flex; 
+            flex-direction: column;
+            width: 100%; 
+
+        }
+      background-color: black;
+    }
+  }
