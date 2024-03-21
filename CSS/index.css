@@ -95,8 +95,12 @@ footer {
             display: flex; 
             flex-direction: column;
             width: 100%; 
-
         }
       background-color: black;
     }
+  }
+  .button {
+    border-color: white;
+    border-radius: 5px;
+    background-color: black;
   }
