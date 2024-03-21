@@ -2,6 +2,14 @@
     <head>
         <title>about me</title>
         <link rel="stylesheet" href="./CSS/index.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("p").toggle();
+  });
+});
+</script>            
     </head>
     <body>
         <header>
@@ -44,15 +52,14 @@
             <div class="workGrid">
                 <div><img src="./Images/Screen Shot 2024-03-05 at 10.21.24 PM.png" class="img1"></div>
                 <div>
+                    <button>See more</button>
+                    <p>Redesigning a local food charity's website to bring their inspiring story to the forefront.</p>
                     <h1>Peninsula Food Runners</h1>
-                    <p>Redesigning a local food charity's website.</p>
-                    <button><p>see more</p></button>
                 </div>
                 <div><img src="./Images/Screen Shot 2024-03-07 at 10.04.38 PM.png" class="img2"></div>
                 <div>
                     <h1>USDA Redesign</h1>
                     <p>Rebranding the USDA</p>
-                    <button><p>see more</p></button>
                 </div>
             </div>
             <p>View all projects</p>
